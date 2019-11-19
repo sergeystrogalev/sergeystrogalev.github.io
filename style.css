@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+    font-family: Arial;
+    font-size: 15px;
+    color: #FFFFF0;
+
+}
+
+
+        /*Удалить потом*/
+ .container {
+ 	width: 100%;
+ 	max-width: 600px;
+ 	margin: 0 auto;
+ }
+
+
+   /*Первый фон*/
+ .first_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 	width: 100%;
+ 	height: 100vh;
+
+ 	background: url("../img/фон1.jpg") 
+ 	no-repeat;
+ 	background-size: cover;
+ }
+
+ .first_part_title{
+ 	font-size: 25px;
+ 	text-transform: uppercase;
+ }
+
+ .first_part_title2{
+ 	font-size: 50px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px;
+
+ } 
+
+  /* Кнопка VIEW PRODUCTS*/
+ .buttonVP{
+   display: inline-block;
+   vertical-align: top;
+   padding: 10px 15px;
+   border: 0.5px solid;
+   color: #FFFFF0;
+   text-transform: uppercase;
+   text-decoration: none;
+   opacity: 1;
+ }
+
+ .buttonVP:hover{
+ 	opacity: 0.7;
+
+
+ }
+
+
+ .first_part_title_in{
+ 	width: 100%
+ 	max-width:560px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+   /*Header*/
+ .header{
+ 	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+ }
+
+ .header_in{
+ 	display: flex;
+ 	justify-content: center;
+ }
+  
+  /*Логотип1 header ДОДЕЛАТЬ ПОТОМ*/
+ .header_logo1{
+  /*!!!!!!!!!!!!!*/
+  background-image: url("../img/logo1.jpg") left
+  no-repeat;
+  background-size: cover;
+
+ }
+
+ .nav{
+ 	font-size: 15px;
+ 	text-transform: uppercase;
+ }
+
+ .nav_link{
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin: 40px;
+ 	letter-spacing: 2px;
+    color: #FFFFF0;
+ 	text-decoration: none;
+ }
+
+ .nav_link:hover{
+ 	-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+ }
+
+.second_part{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 	width: 100%;
+ 	height: 1092px;	
+	background: url() center
+ 	no-repeat;
+ 	background-size: cover;
+}
