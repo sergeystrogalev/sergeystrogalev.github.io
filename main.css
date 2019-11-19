@@ -1,0 +1,11 @@
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url(../img/ssha-nevada-doroga-pustynya.jpg) no-repeat center top / cover;
+	height: 500px;
+	
+	
+}
