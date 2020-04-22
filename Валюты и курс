@@ -1,0 +1,15 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.cbr.ru/currency_base/daily/"
+
+response = requests.get(url)
+html = response.text
+soup = BeautifulSoup(html,"html.parser")
+elements = soup.select("div.table")
+print(len(elements))
+
+for element in elements
+  VK = element.select("td")[0].text
+  print(VK)
+  
